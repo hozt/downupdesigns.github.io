@@ -2,6 +2,17 @@
 # This file contains configuration flags to customize your site
 #
 
+lsi: false
+safe: true
+source: hozt/downupdesigns.github.io
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 # Name of your site (displayed in the header)
 name: Down Up Design
 
