@@ -318,6 +318,11 @@ img {
   margin-right: 20px;
 }
 
+.posts .post .right {
+  float: none;
+  margin-left: 0; 
+}
+
 @include mobile {
   .right {
     float: none;
