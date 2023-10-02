@@ -4,7 +4,7 @@
 
 lsi: false
 safe: true
-source: hozt/downupdesigns.github.io
+source: /
 incremental: false
 highlighter: rouge
 gist:
