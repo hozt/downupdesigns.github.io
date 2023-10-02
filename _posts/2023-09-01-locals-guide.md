@@ -3,7 +3,7 @@ layout: post
 title: Interview from 2011 in Locals Guide, an Ashland, OR publication
 ---
 
-![Locals guide]({{ site.baseurl }}/images/posts/img14.jpg)
+![Locals guide]({{ site.baseurl }}/images/posts/img14.jpg){: .right}
 Curt Evans has been stuck in Ashland since 1995 and is a familiar face to many. Whether this is a good thing or not we are not sure... but we will say he is well known around these parts.
 
 Mr. Evans loves the outdoor life, mountain biking and running in the hills with the “hashers” . He also loves creating and drawing cartoons. Making fun of all sorts of things which most of us wisely choose to avoid. Curt takes a creative approach to dealing with life’s issues and usually brings about big laughs with all of his work. We thought it was about time that we pinned him down and did an interview with him so we sent the heaviest person we know over to his house to go sit on him while we extracted the following information:   
@@ -25,7 +25,7 @@ Do you have a favorite cartoonist?
 > Gary Larson of “The Far Side”. Ironically, I don’t really follow or even know other cartoonist’s work very well. There is a cool web site, cagle.com, that has political cartoonist’s work from all over the world. I love to see how each cartoonist works out their own solution to big events. 
 Ever been or dated a nude model? I’ve never posed nude. Not yet. Never dated a nude model, but in art school I did lots of nude sketches of course. I have a degree in Studio Art from UC Santa Barbara. I do have my muses though (love ya, Melanie!).
 
-![Locals guide]({{ site.baseurl }}/images/posts/img15.jpg)
+![Locals guide]({{ site.baseurl }}/images/posts/img15.jpg){: .right}
 
 Cartoons are a great vehicle for addressing controversy, talk a little bit about this?
 
@@ -44,7 +44,7 @@ Most interesting place you have seen your cartoons?
 > Probably on the side of the RVTD bus. I had done work for them for years, because besides buses, RVTD’s mission is to cut “vehicular miles”, so that means using alternative modes of transportation - walking, cycling, roller blading, skating. I did cartoons for lots of their programs because I believe in that. Last year they commissioned me to do a full wrap design of their Interactive Bus with the theme Healthy Kids are Happy Kids. What was cool too, was where I work, Signs Now, did the digital printing and wrapping, so I was fully involved. All my friends call it “My Bus”. 
 You Teach Classes? Well, I have four kids, so when they were all growing up, I’d go to their school and do classes. After years of that, I decided to teach for SOU Youth Programs, which was a blast. I did that in Medford and Ashland for a few years. One thing I discovered is as kids get older, less of them like to draw, and they get self-conscious of their drawings. I really try to teach them to not care what anyone thinks and just draw for themselves. Lately I’ve been doing classes at the Ashland Art Center. That is one of our community’s hidden treasures. They have working art studios upstairs, a gallery for their members, supplies, and classrooms.
 
-![Locals guide]({{ site.baseurl }}/images/posts/img16.jpg)
+![Locals guide]({{ site.baseurl }}/images/posts/img16.jpg){: .right}
 
 What if people can’t draw... will you still teach them?
 
