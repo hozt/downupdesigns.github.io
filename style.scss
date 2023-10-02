@@ -317,8 +317,9 @@ img {
   margin-right: 20px;
 }
 
-.posts .post .right {
-  float: none;
+.posts .post img {
+  float: left;
+  margin: -10px 20px 0 20px;
   margin-left: 0;
   width: 150px;
   height: 150px;
@@ -327,6 +328,7 @@ img {
 
 .posts .post {
   clear: both;
+  min-height: 215px;
 }
 
 @include mobile {
