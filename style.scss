@@ -320,6 +320,13 @@ img {
 .posts .post .right {
   float: none;
   margin-left: 0;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.posts .post {
+  clear: both;
 }
 
 @include mobile {
