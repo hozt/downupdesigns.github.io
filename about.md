@@ -20,6 +20,6 @@ Ashland, Oregon has been his home since 1995.
 
 ### Allan Hermansen
 
-![Allan]({{ site.baseurl }}/images/pages/img19.jpg){: .right}
+![Allan]({{ site.baseurl }}/images/pages/allan.png){: .right}
 
 Allan has been involved in cycling and motorsports since 1986. He started with Salsa Cycles in 1986 working on the shop floor to build some of the coolest bicycle components at that time.  Later he got involved in custom cycling apparel with Aussie Racing Apparel, and then moved into making custom uniforms for race teams around the world, first with Outer Circle and later, Vicci. Allan lives and works in Emmett, Idaho.

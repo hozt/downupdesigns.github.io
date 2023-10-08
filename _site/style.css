@@ -167,12 +167,12 @@ img {
 
 ::-moz-selection {
   color: #000;
-  background: #eee;
+  background: #d4d4d4;
 }
 
 ::selection {
   color: #000;
-  background: #eee;
+  background: #d4d4d4;
 }
 
 .clearfix:before,
@@ -190,7 +190,7 @@ img {
 /*********************/
 .wrapper-masthead .container {
   margin-bottom: 10px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .masthead {
@@ -294,7 +294,7 @@ nav a {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .posts > .post .entry a {
@@ -325,6 +325,7 @@ nav a {
 
 .wrapper-footer {
   margin-top: 60px;
+  clear: both;
 }
 
 footer {
@@ -404,7 +405,7 @@ img {
   }
 }
 hr {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #d4d4d4;
 }
 
 .highlight {
