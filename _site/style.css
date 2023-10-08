@@ -313,7 +313,6 @@ nav a {
   border-left: 2px solid #666;
   padding: 0.1em 1em;
   color: #666;
-  font-size: 22px;
   font-style: italic;
 }
 .post .comments {
@@ -386,6 +385,7 @@ img {
 @media screen and (max-width: 640px) {
   .right {
     float: none;
+    margin-left: 0;
   }
 
   .mobile {
