@@ -253,7 +253,7 @@ img {
 
 .store-icon {
   color: #cf2b24;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -403,6 +403,10 @@ img {
     display: block;
   }
 }
+hr {
+  border-top: 1px solid #eee;
+}
+
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
