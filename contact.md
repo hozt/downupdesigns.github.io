@@ -11,7 +11,7 @@ Phone: 541-646-2024
 
 Address: PO Box 1243, Ashland OR 97520
 
-Email: [downupdesignmerch@gmail.com](downupdesignmerch@gmail.com){:target="_blank"}
+Email: [downupdesignmerch@gmail.com](mailto:downupdesignmerch@gmail.com){:target="_blank"}
 
 Facebook:
 * [Curt Evans](https://www.facebook.com/curt.evans.5){:target="_blank"}
@@ -31,12 +31,12 @@ Phone: 208-963-5710
 
 Address: 1901 N. Washington Ave., Emmet, ID 83617
 
-Email: [allan@rte52.com](allan@rte52.com){:target="_blank"}
+Email: [allan@rte52.com](mailto:allan@rte52.com){:target="_blank"}
 
 Facebook:
 * [Route 52 Screen Print & Embroidery](https://www.facebook.com/Route52screenprintingandembroidery)
 
 Instagram:
-* [@viccimoto](https://instagram.com/route52screenprinting){:target="_blank"}
+* [@route52screenprinting](https://instagram.com/route52screenprinting){:target="_blank"}
 
 [rte52.com](https://www.rte52.com){:target="_blank"}
