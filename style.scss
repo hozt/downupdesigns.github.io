@@ -150,8 +150,9 @@ img {
 // .masthead
 //
 
-.wrapper-masthead {
+.wrapper-masthead .container {
   margin-bottom: 10px;
+  border-bottom: 1px solid $lightGray;
 }
 
 .masthead {
@@ -210,11 +211,12 @@ img {
 }
 
 .store-icon {
-    float: left;
-    margin: 10px 20px 0 0;
-    max-width: 200px;
+    color: #cf2b24;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
     @include mobile {
-        max-width: 100px;
+        font-size: 1.0em;
     }
 }
 

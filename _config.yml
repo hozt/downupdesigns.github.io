@@ -30,9 +30,9 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 footer-links:
   dribbble:
   email:
-  facebook: curtevanscartoons
+  facebook: profile.php?id=100087120037847
   flickr:
-  github: 
+  github:
   instagram: downupdesignmerch541
   linkedin:
   pinterest:
@@ -95,3 +95,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+imagesurl: "/images/gallery/"
+thumbsurl: "/images/thumbnails/"

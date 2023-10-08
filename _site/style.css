@@ -188,8 +188,9 @@ img {
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
-.wrapper-masthead {
+.wrapper-masthead .container {
   margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
 }
 
 .masthead {
@@ -251,13 +252,14 @@ img {
 }
 
 .store-icon {
-  float: left;
-  margin: 10px 20px 0 0;
-  max-width: 200px;
+  color: #cf2b24;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 640px) {
   .store-icon {
-    max-width: 100px;
+    font-size: 1.0em;
   }
 }
 

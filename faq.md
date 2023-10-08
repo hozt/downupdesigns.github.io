@@ -8,6 +8,7 @@ permalink: /faq/
 
 **A:** Yes, see the tab "Custom Commissions". We love to do personalized, custom cartoons! It can be you on your bike or your mini rider. We also do art for events, races, shops, clubs, websites, t-shirt designs, and logos. And it doesn't have to be motorcycles, it can be whatever you can imagine.
 Don't I remember seeing your character "N.Doe" in Motocross Action Magazine?
+
 **Q: Can you do a custom cartoon of me on my bike?**
 
 **A:** Yes, see the tab "Custom Commissions". We love to do personalized, custom cartoons! It can be you on your bike or your mini rider. We also do art for events, races, shops, clubs, websites, t-shirt designs, and logos. And it doesn't have to be motorcycles, it can be whatever you can imagine.
@@ -62,7 +63,7 @@ Don't I remember seeing your character "N.Doe" in Motocross Action Magazine?
 
 **Q: Wasn't down/up a mountain bike company in the late 80's/early 90's?**
 
-**A:**Yes, thought no one remembered.  down/up started by promoting mountain bike races. Established in 1986 on Oahu, Hawaii. The first event was an observed trials at Kahuku motorcycle park. Then a halftime exhibition race during the Supercross at Aloha Stadium. Our first cross country race was the Zero cc Enduro. I designed all the event shirts for these, and I started selling the extras. Then I started doing a monthly cartoon for Mountain Biking Magazine, "The Dirt Clods" (and N.Doe was reincarnated). I traded the cartoon work for an ad in the mag, and started a mail order t-shirt business. This was back in the days before the Internet, when you'd send in a dollar and get a catalog and stickers. We even sponsored the BTU Team and lead guitarist for Metallica, Kirk Hammett.
+**A:** Yes, thought no one remembered.  down/up started by promoting mountain bike races. Established in 1986 on Oahu, Hawaii. The first event was an observed trials at Kahuku motorcycle park. Then a halftime exhibition race during the Supercross at Aloha Stadium. Our first cross country race was the Zero cc Enduro. I designed all the event shirts for these, and I started selling the extras. Then I started doing a monthly cartoon for Mountain Biking Magazine, "The Dirt Clods" (and N.Doe was reincarnated). I traded the cartoon work for an ad in the mag, and started a mail order t-shirt business. This was back in the days before the Internet, when you'd send in a dollar and get a catalog and stickers. We even sponsored the BTU Team and lead guitarist for Metallica, Kirk Hammett.
 
 **Q: How old were you when you started drawing motocross cartoons and what got you started in dirt biking?**
 

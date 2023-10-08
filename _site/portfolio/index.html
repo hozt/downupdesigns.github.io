@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio – Down Up Design – Curt Evans Cartoons</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Curt Evans Cartoons">
+    <meta property="og:description" content="Curt Evans Cartoons" />
+    
+    <meta name="author" content="Down Up Design" />
+
+    
+    <meta property="og:title" content="Portfolio" />
+    <meta property="twitter:title" content="Portfolio" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="Down Up Design - Curt Evans Cartoons" href="/feed.xml" /> -->
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+    <body>
+    <div class="wrapper-masthead">
+        <div class="container">
+            <header class="masthead clearfix">
+                <div class="site-info">
+                    <a href="/">
+                        <img src="/images/header.jpg" class="not-mobile" />
+                        <img src="/images/header-mobile.jpg" class="mobile" />
+                    </a>
+                </div>
+
+                <nav>
+                    <a href="https://rte52.com/curt-evans-store/" alt="Down/up Store" class="store-icon">
+                        Store
+                    </a>
+                    <a href="/">Home</a>
+                    <a href="/blog">Blog</a>
+                    <a href="/about">About</a>
+                    <a href="/faq">FAQ</a>
+                    <a href="/custom">Custom</a>
+                    <a href="/contact">Contact</a>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+        <article class="page">
+
+  <h1>Portfolio</h1>
+
+  <div class="entry">
+    <style>
+    /*! div style */
+.image-gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    justify-content: center;
+    padding: 4px;
+}
+
+.box {
+    flex-basis: 25%;
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+}
+
+.img-gallery {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+#lightbox {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0,0,0,0.85); z-index: 9999999; line-height: 0; cursor: pointer; display: none;}
+#lightbox .img {
+    position: relative; 
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+#lightbox .img img {opacity: 0; pointer-events: none; width: auto;}
+@media screen and (min-width: 1200px) {
+    #lightbox .img {
+        max-width: 1200px;
+    }
+}
+@media screen and (min-height: 1200px) {
+    #lightbox .img {
+        max-height: 1200px;
+    }
+}
+#lightbox span {display: block; position: fixed; bottom: 13px; height: 1.5em; line-height: 1.4em; width: 100%; text-align: center; color: white; text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#lightbox span {display: none;}
+
+#lightbox .videoWrapperContainer {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    max-width: 900px;
+    max-height: 100%;
+}
+#lightbox .videoWrapperContainer .videoWrapper {
+    height: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 56.333%; /* custom */
+    background: black;
+}
+#lightbox .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+#lightbox #prev, #lightbox #next {height: 50px; line-height: 36px; display: none; margin-top: -25px; position: fixed; top: 50%; padding: 0 15px; cursor: pointer; text-decoration: none; z-index: 99; color: white; font-size: 60px;}
+#lightbox.gallery #prev, #lightbox.gallery #next {display: block;}
+#lightbox #prev {left: 0;}
+#lightbox #next {right: 0;}
+#lightbox #close {height: 50px; width: 50px; position: fixed; cursor: pointer; text-decoration: none; z-index: 99; right: 0; top: 0;}
+#lightbox #close:after, #lightbox #close:before {position: absolute; margin-top: 22px; margin-left: 14px; content: ""; height: 3px; background: white; width: 23px;
+-webkit-transform-origin: 50% 50%;
+-moz-transform-origin: 50% 50%;
+-o-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+/* Safari */
+-webkit-transform: rotate(-45deg);
+/* Firefox */
+-moz-transform: rotate(-45deg);
+/* IE */
+-ms-transform: rotate(-45deg);
+/* Opera */
+-o-transform: rotate(-45deg);
+}
+#lightbox #close:after {
+/* Safari */
+-webkit-transform: rotate(45deg);
+/* Firefox */
+-moz-transform: rotate(45deg);
+/* IE */
+-ms-transform: rotate(45deg);
+/* Opera */
+-o-transform: rotate(45deg);
+}
+#lightbox, #lightbox * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+</style>
+
+<div class ="image-gallery">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/white%20Airplanes.png" title="white Airplanes">
+           <img src="/images/thumbnails/white Airplanes.png " alt="white Airplanes"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/pteradactyl.png" title="pteradactyl">
+           <img src="/images/thumbnails/pteradactyl.png " alt="pteradactyl"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/giraffe.png" title="giraffe">
+           <img src="/images/thumbnails/giraffe.png " alt="giraffe"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/Stank%20Dog%20new%20colors.png" title="Stank Dog new colors">
+           <img src="/images/thumbnails/Stank Dog new colors.png " alt="Stank Dog new colors"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/Rowen%207.png" title="Rowen 7">
+           <img src="/images/thumbnails/Rowen 7.png " alt="Rowen 7"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/RVTD%20-%20Office.png" title="RVTD - Office">
+           <img src="/images/thumbnails/RVTD - Office.png " alt="RVTD - Office"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/MAIN%20EVENT%20MOTO%20-%20BAT%20BROS.png" title="MAIN EVENT MOTO - BAT BROS">
+           <img src="/images/thumbnails/MAIN EVENT MOTO - BAT BROS.png " alt="MAIN EVENT MOTO - BAT BROS"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/KIAH.png" title="KIAH">
+           <img src="/images/thumbnails/KIAH.png " alt="KIAH"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/IMG_9941.png" title="IMG_9941">
+           <img src="/images/thumbnails/IMG_9941.png " alt="IMG_9941"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/IMG_4936.png" title="IMG_4936">
+           <img src="/images/thumbnails/IMG_4936.png " alt="IMG_4936"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/Gold%20Rush%20Run.png" title="Gold Rush Run">
+           <img src="/images/thumbnails/Gold Rush Run.png " alt="Gold Rush Run"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/Glen%20Grahe%20-%20Bob%20Hannah%20W%20BKGD.png" title="Glen Grahe - Bob Hannah W BKGD">
+           <img src="/images/thumbnails/Glen Grahe - Bob Hannah W BKGD.png " alt="Glen Grahe - Bob Hannah W BKGD"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/F2D86A35-470B-4199-AA9A-F23A0B837AB0.png" title="F2D86A35-470B-4199-AA9A-F23A0B837AB0">
+           <img src="/images/thumbnails/F2D86A35-470B-4199-AA9A-F23A0B837AB0.png " alt="F2D86A35-470B-4199-AA9A-F23A0B837AB0"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/EAAF91F9-6FDC-43BF-A870-C24E493E028F.png" title="EAAF91F9-6FDC-43BF-A870-C24E493E028F">
+           <img src="/images/thumbnails/EAAF91F9-6FDC-43BF-A870-C24E493E028F.png " alt="EAAF91F9-6FDC-43BF-A870-C24E493E028F"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/E007CD60-BA62-424C-BE8F-BE76652817E0.png" title="E007CD60-BA62-424C-BE8F-BE76652817E0">
+           <img src="/images/thumbnails/E007CD60-BA62-424C-BE8F-BE76652817E0.png " alt="E007CD60-BA62-424C-BE8F-BE76652817E0"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/Donkey%20color.png" title="Donkey color">
+           <img src="/images/thumbnails/Donkey color.png " alt="Donkey color"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/Blake%20Bagget%20KTM.png" title="Blake Bagget KTM">
+           <img src="/images/thumbnails/Blake Bagget KTM.png " alt="Blake Bagget KTM"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/BLUE%20DOG%20-%20AMY.png" title="BLUE DOG - AMY">
+           <img src="/images/thumbnails/BLUE DOG - AMY.png " alt="BLUE DOG - AMY"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/Alien%20Surfc%20color.png" title="Alien Surfc color">
+           <img src="/images/thumbnails/Alien Surfc color.png " alt="Alien Surfc color"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/A371D075-DC9D-4916-A513-7B068C0D934D.png" title="A371D075-DC9D-4916-A513-7B068C0D934D">
+           <img src="/images/thumbnails/A371D075-DC9D-4916-A513-7B068C0D934D.png " alt="A371D075-DC9D-4916-A513-7B068C0D934D"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+      
+        
+         <div class="box"><a href="/images/gallery/2C63F035-83B4-4BD9-BF40-02A5B29695A3.png" title="2C63F035-83B4-4BD9-BF40-02A5B29695A3">
+           <img src="/images/thumbnails/2C63F035-83B4-4BD9-BF40-02A5B29695A3.png " alt="2C63F035-83B4-4BD9-BF40-02A5B29695A3"  class="img-gallery" />
+         </a></div>
+        
+      
+    
+    
+    
+</div>
+
+<script type="text/javascript" src="/js/lightbox.js"></script>
+
+  </div>
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+        <div class="container">
+            <footer class="footer">
+                
+
+<a href="https://www.facebook.com/profile.php?id=100087120037847" target="_blank"><i class="svg-icon facebook"></i></a>
+
+
+<a href="https://instagram.com/downupdesignmerch541" target="_blank"><i class="svg-icon instagram"></i></a>
+
+
+
+
+
+
+
+            </footer>
+        </div>
+    </div>
+
+    
+
+    </body>
+</html>
